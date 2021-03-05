@@ -13,7 +13,10 @@ namespace LearnTodayWebAPI.Controllers
         private LearnTodayWebAPIDbContext dbContext;
         public AdminController()
         {
-            dbContext = new LearnTodayWebAPIDbContext();
+           //dbContext = new LearnTodayWebAPIDbContext();
+           dbContext = new LearnTodayWebAPIDbContext();
+
+
             dbContext.Configuration.ProxyCreationEnabled = false;
         }
 
